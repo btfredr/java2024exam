@@ -8,11 +8,20 @@
     • E.g. 2: If kilometers is 5, the method returns 3.106855.
  */
 
- 
+
+import java.util.Scanner;
 
 public class Task4 {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Please enter an amount of kilometers: ");
+        double km = scanner.nextDouble();
 
+        scanner.close();
+
+        double miles = km * 0.621371;
+
+        System.out.print(km + " kilometers equals " + miles + " miles.");
     }
 
 }
