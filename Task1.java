@@ -17,5 +17,12 @@ public class Task1 {
 
     public int smallestInt(double input) {
         
+        if (input % 2 != 0) {
+            int result = (int) input + 1;
+            return result;
+        } else {
+            int res = (int) input + 2;
+            return res;
+        }
     }
 }
