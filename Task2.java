@@ -25,11 +25,16 @@ public class Task2 {
         System.out.print("Please enter a number of rows: ");
         int height = scanner.nextInt();
 
+        scanner.close();
 
-        for (int i = 1; i > 0; i++) {
-            for (int j = 1; j > 0; j++) {
 
+        for (int i = height; i >= 1; i--) { // Teller nedover fra height
+
+            for (int j = i; j >= 1; j--) {
+                System.out.print(j + " "); // Printer height i synkende rekkefølge, med mellomrom
             }
+
+            System.out.println(); // Linjeskift
         }
     }
 }
