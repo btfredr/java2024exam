@@ -12,10 +12,15 @@
 public class Task1 {
 
     public static void main(String[] args) {
-
+        System.out.println("Testing 7.0:");
+        System.out.println(smallestInt(7.0));
+        System.out.println("Testing -5.75:");
+        System.out.println(smallestInt(-5.75));
+        System.out.println("Testing 25.2:");
+        System.out.println(smallestInt(25.2));
     }
 
-    public int smallestInt(double input) {
+    public static int smallestInt(double input) {
         
         if (input % 2 != 0) {
             int result = (int) input + 1;
