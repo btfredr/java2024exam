@@ -77,6 +77,13 @@ public class Vehicle {
         this.year = year;
     }
 
+    // Print method
+    public void print() {
+        System.out.println("Vehicle information");
+        System.out.println("Model: " + getModel());
+        System.out.println("Year: " + getYear());
+    }
+
     // Getters and setters
     public int getID() {
         return ID;
