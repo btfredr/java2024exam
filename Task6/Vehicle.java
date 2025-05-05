@@ -65,6 +65,18 @@ public class Vehicle {
     private String model;
     private int year;
 
+    // Method constructors
+    public Vehicle(int ID, String model) {
+        this.ID = ID;
+        this.model = model;
+    }
+
+    public Vehicle(int ID, String model, int year) {
+        this.ID = ID;
+        this.model = model;
+        this.year = year;
+    }
+
     // Getters and setters
     public int getID() {
         return ID;
