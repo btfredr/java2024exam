@@ -19,9 +19,13 @@ package Task6;
     that prints information from all available fields.
  */
 
-public class Car {
+public class Car extends Vehicle {
     private int numOfDoors;
     private boolean isElectric;
 
-
+    public Car(int ID, String model, int year, int numOfDoors, boolean isElectric) {
+        super(ID, model, year);
+        this.numOfDoors = numOfDoors;
+        this.isElectric = isElectric;
+    }
 }
