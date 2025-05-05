@@ -38,4 +38,14 @@ public class Car extends Vehicle {
     public boolean isElectric() {
         return isElectric;
     }
+
+    @Override
+    public void print() {
+        System.out.println("Car information:");
+        System.out.println("ID: " + getID());
+        System.out.println("Model: " + getModel());
+        System.out.println("Year: " + getYear());
+        System.out.println("Number of doors: " + getNumberOfDoors());
+        System.out.println("Electric: " + isElectric());
+    }
 }
