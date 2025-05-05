@@ -23,9 +23,19 @@ public class Car extends Vehicle {
     private int numOfDoors;
     private boolean isElectric;
 
+    // Constructor that extends the superclass
     public Car(int ID, String model, int year, int numOfDoors, boolean isElectric) {
         super(ID, model, year);
         this.numOfDoors = numOfDoors;
         this.isElectric = isElectric;
+    }
+
+    // Get methods
+    public int getNumberOfDoors() {
+        return numOfDoors;
+    }
+
+    public boolean isElectric() {
+        return isElectric;
     }
 }
