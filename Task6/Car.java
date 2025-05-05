@@ -39,6 +39,8 @@ public class Car extends Vehicle {
         return isElectric;
     }
 
+
+    // Overriding print from super and printing all info
     @Override
     public void print() {
         System.out.println("Car information:");
