@@ -8,7 +8,7 @@ package Task6;
     • Task 6.1: Create a class named Vehicle (4 points)
     o Create a class named Vehicle that contains data fields for the vehicle's ID, model,
     and year. Include getter and setter methods for these fields.
-    
+
     • Task 6.2: Constructors for Vehicle (3 points)
     o The Vehicle class should have two constructors:
     § One constructor with two arguments (ID, model).
@@ -60,5 +60,33 @@ package Task6;
  */
 
 public class Vehicle {
+    // Data fields
+    private int ID;
+    private String model;
+    private int year;
 
+    // Getters and setters
+    public int getID() {
+        return ID;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
 }
