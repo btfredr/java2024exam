@@ -14,6 +14,16 @@ package Task6;
 public class Truck extends Vehicle {
     private double cargoCapacity;
 
+    // Constructor that extends the superclass
+    public Truck(int ID, String model, int year, double cargoCapacity) {
+        super(ID, model, year);
+        this.cargoCapacity = cargoCapacity;
+    }
+
+    public double getCargoCapacity() {
+        return cargoCapacity;
+    }
+
     public void printModelAndYear() {
         System.out.println("Truck info: ");
         System.out.println("Model: " + getModel());
