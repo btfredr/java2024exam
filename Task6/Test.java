@@ -13,6 +13,7 @@ package Task6;
 public class Test {
     
     public static void main(String[] args) {
-        
+        Car c1 = new Car(1, "Hellcat", 2025, 4, false);
+        Truck t1 = new Truck(2, "Scania", 1995, 4.5);
     }
 }

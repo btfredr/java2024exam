@@ -35,6 +35,6 @@ public class Truck extends Vehicle {
         System.out.println("ID: " + getID());
         System.out.println("Model: " + getModel());
         System.out.println("Year: " + getYear());
-        System.out.println("Cargo capacity: " + cargoCapacity);
+        System.out.println("Cargo capacity: " + getCargoCapacity());
     }
 }
